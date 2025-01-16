@@ -1,0 +1,85 @@
+Artificial Intelligence (AI)
+Definition: AI is the science of building machines capable of performing tasks that require intelligence, such as understanding language, recognizing objects, solving problems, or making decisions.
+Key Categories:
+Narrow AI: AI systems designed to perform specific tasks (e.g., spam filters, recommendation systems).
+General AI: A theoretical form of AI capable of performing any intellectual task that a human can do.
+Superintelligent AI: A hypothetical future AI surpassing human intelligence in all fields.
+Generative AI
+Definition: A branch of AI focused on creating content rather than just analyzing or predicting.
+Key Idea: The model is trained on a dataset (e.g., text, images, or music) and learns the patterns in the data to generate new content that is similar to the original.
+Examples:
+GPT for generating human-like text (used in chatbots).
+DALL·E for creating images based on text prompts.
+Jukebox for generating music.
+How It Works:
+The model is trained on massive datasets using techniques like deep learning.
+During training, the model identifies the relationships between different elements of the data (e.g., words in a sentence or pixels in an image).
+After training, the model can generate new outputs that resemble the patterns it learned.
+Machine Learning (ML)
+Definition: A subset of AI where machines learn patterns from data and make decisions or predictions without explicit programming.
+Key Features:
+Focuses on data-driven decision-making.
+Relies on algorithms that improve performance as more data is provided.
+Core Branches:
+Supervised Learning:
+
+Definition: The model is trained on labeled data (data with known inputs and outputs).
+Algorithms:
+Regression: Predicts continuous outcomes (e.g., stock prices).
+Classification: Predicts discrete categories (e.g., email spam detection).
+Unsupervised Learning:
+
+Definition: The model learns patterns from unlabeled data (data without predefined outputs).
+Use Cases: Clustering (grouping similar data points) and anomaly detection.
+Reinforcement Learning:
+
+Definition: The model learns by interacting with its environment, receiving rewards or penalties for actions.
+Example: Training a robot to walk or teaching an AI agent to win at chess.
+Key Concepts in Machine Learning
+1. Backpropagation:
+Definition: A training algorithm used in neural networks to adjust the model's weights and reduce prediction error.
+How It Works:
+The model makes a prediction and calculates the error (difference between the predicted and actual value).
+The error is propagated backward through the network to adjust weights.
+This process is repeated until the error is minimized.
+2. Kernel (in Support Vector Machines):
+Definition: A mathematical function that maps input data into a higher-dimensional space, making it easier to find patterns (e.g., separating data into classes).
+Why It’s Important:
+Some datasets cannot be separated using a straight line in their original dimensions.
+Kernels allow the SVM algorithm to find a linear boundary in a higher-dimensional space without explicitly transforming the data.
+Types of Kernels:
+Linear Kernel: 
+Used when the data is already linearly separable.
+
+Polynomial Kernel:
+Maps data to higher dimensions using polynomial transformations.
+
+RBF (Radial Basis Function) Kernel:
+
+Measures the similarity between two points based on their distance.
+Popular for non-linear problems, as it maps data into infinite dimensions.
+
+Sigmoid Kernel:
+inspired by neural networks but less commonly used than the RBF kernel.
+
+3. Supervised Learning Algorithms:
+Regression: Predicts continuous values. Example: Predicting house prices based on size, location, etc.
+Classification: Predicts categories. Example: Spam or not spam email detection.
+4. Unsupervised Learning Algorithms:
+Clustering: Groups similar data points. Example: Customer segmentation for marketing.
+Dimensionality Reduction: Reduces the number of features while retaining important patterns. Example: PCA (Principal Component Analysis).
+Stanford CS Course
+If you are learning from Stanford CS courses, especially CS229 (Machine Learning by Andrew Ng), you are covering some of the best foundational material available. These courses focus on:
+
+Theory: Mathematical foundations of ML (e.g., linear algebra, probability).
+Practice: Hands-on projects and algorithm implementation.
+Terms That Weren’t Fully Explained
+Gradient Descent:
+Definition: An optimization algorithm used to minimize the error in a model.
+The algorithm iteratively adjusts the model’s parameters to reduce the difference between predicted and actual outputs.
+Training and Testing Data:
+Training Data: Used to train the model.
+Testing Data: Separate data used to evaluate the model’s performance.
+Learning Rate:
+Definition: A parameter that controls how much the model’s weights are adjusted during training.
+A high learning rate may overshoot the optimal solution, while a low rate may slow down convergence.
