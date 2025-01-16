@@ -83,3 +83,5 @@ Testing Data: Separate data used to evaluate the model’s performance.
 Learning Rate:
 Definition: A parameter that controls how much the model’s weights are adjusted during training.
 A high learning rate may overshoot the optimal solution, while a low rate may slow down convergence.
+
+End
