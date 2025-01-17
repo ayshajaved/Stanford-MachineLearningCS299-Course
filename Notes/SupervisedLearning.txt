@@ -1,0 +1,8 @@
+                                        input 
+                                          |
+Training set -> Learning algorithm -> Hypothesis ->Output
+What represents the hypothesis?
+h(x) = θ0 + θ1x1 + θ2x2 + ... + θnxn linear regression
+explain the equation:
+The equation represents a linear regression model, where h(x) is the predicted output, and x is the input feature. The θ values are the parameters of the model that are learned during the training process. The equation essentially represents a linear combination of the input features and the parameters, with the output being a continuous value.
+In the context of the diagram, the hypothesis represents the learned relationship between the input features and the output

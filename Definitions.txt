@@ -22,19 +22,22 @@ Focuses on data-driven decision-making.
 Relies on algorithms that improve performance as more data is provided.
 Core Branches:
 Supervised Learning:
-
 Definition: The model is trained on labeled data (data with known inputs and outputs).
 Algorithms:
 Regression: Predicts continuous outcomes (e.g., stock prices).
 Classification: Predicts discrete categories (e.g., email spam detection).
-Unsupervised Learning:
 
+Unsupervised Learning:
 Definition: The model learns patterns from unlabeled data (data without predefined outputs).
 Use Cases: Clustering (grouping similar data points) and anomaly detection.
-Reinforcement Learning:
+Dimensionality Reduction: Reduces the number of features while retaining important patterns. Example: PCA (Principal Component Analysis).
+K-mean Clustering: A popular clustering algorithm that partitions data into K clusters based on feature similarity.
 
+Reinforcement Learning:
 Definition: The model learns by interacting with its environment, receiving rewards or penalties for actions.
 Example: Training a robot to walk or teaching an AI agent to win at chess.
+Q-Learning: A popular RL algorithm that learns the optimal action-value function, which maps states and actions to expected rewards.
+
 Key Concepts in Machine Learning
 1. Backpropagation:
 Definition: A training algorithm used in neural networks to adjust the model's weights and reduce prediction error.
@@ -42,8 +45,10 @@ How It Works:
 The model makes a prediction and calculates the error (difference between the predicted and actual value).
 The error is propagated backward through the network to adjust weights.
 This process is repeated until the error is minimized.
-2. Kernel (in Support Vector Machines):
+2. Kernel (in Support Vector Machines):SVM (Support Vector Machines): A supervised learning algorithm used for classification and regression tasks. It finds the optimal hyperplane that separates data points into different classes.
+
 Definition: A mathematical function that maps input data into a higher-dimensional space, making it easier to find patterns (e.g., separating data into classes).
+
 Why It’s Important:
 Some datasets cannot be separated using a straight line in their original dimensions.
 Kernels allow the SVM algorithm to find a linear boundary in a higher-dimensional space without explicitly transforming the data.
@@ -55,28 +60,37 @@ Polynomial Kernel:
 Maps data to higher dimensions using polynomial transformations.
 
 RBF (Radial Basis Function) Kernel:
-
 Measures the similarity between two points based on their distance.
 Popular for non-linear problems, as it maps data into infinite dimensions.
 
 Sigmoid Kernel:
 inspired by neural networks but less commonly used than the RBF kernel.
 
-3. Supervised Learning Algorithms:
-Regression: Predicts continuous values. Example: Predicting house prices based on size, location, etc.
-Classification: Predicts categories. Example: Spam or not spam email detection.
-4. Unsupervised Learning Algorithms:
-Clustering: Groups similar data points. Example: Customer segmentation for marketing.
-Dimensionality Reduction: Reduces the number of features while retaining important patterns. Example: PCA (Principal Component Analysis).
-Stanford CS Course
-If you are learning from Stanford CS courses, especially CS229 (Machine Learning by Andrew Ng), you are covering some of the best foundational material available. These courses focus on:
+6. Gradient Descent: An optimization algorithm used to minimize the error in a model.
+7. Training and Testing Data: Separate data sets used to train and evaluate the model's performance.
+8. Learning Rate: A parameter that controls how much the model's weights are adjusted during training.
+9. Overfitting: When a model is too complex and performs well on training data but poorly
+10. Underfitting: When a model is too simple and performs poorly on both training and testing
+11. Regularization: Techniques used to prevent overfitting by adding a penalty term to the loss
+12. Cross-validation: A method used to evaluate the model's performance on unseen data by splitting th
+13. Hyperparameter Tuning: The process of adjusting model parameters to improve performance
+14. Model Selection: Choosing the best model for a given problem based on performance metrics
+15. Bias-Variance Tradeoff: The relationship between a model's bias (underfitting) and variance (overfitting) that determines its generalization ability.
+16. Ensemble Learning: Combining multiple models to improve performance.
+17. Transfer Learning: Using pre-trained models as a starting point for a new task.
+18. Active Learning: Selecting the most informative samples for labeling to improve model performance.
+19. Autoencoders: Neural networks that learn to compress and reconstruct data, useful for dimensionality
+20. GANs (Generative Adversarial Networks): A framework for training generative models by having two neural networks compete with each other.
+21. Reinforcement Learning: A type of machine learning where an agent learns to make decisions by interacting with an environment and receiving rewards or penalties.
+22. Natural Language Processing (NLP): A field of AI that focuses on the interaction between computers and human language.
+23. Computer Vision: A field of AI that focuses on enabling computers to interpret and understand visual data from the world around them.
+24. Convolutional Neural Networks (CNNs): A type of neural network that is particularly effective for image recognition tasks.
+25. Recurrent Neural Networks (RNNs): A type of neural network that is well-suited for processing sequential data, such as time series or natural language.
+26. Long Short-Term Memory (LSTM): A type of RNN that is capable of learning long-term dependencies in sequential data.
+27. Transformer: A type of neural network architecture that is widely used in NLP tasks, such as machine translation and text generation.
+28. Generative Adversarial Networks (GANs): A type of neural network that is capabl
+29. Deep Learning: A subfield of machine learning that involves the use of neural networks with multiply layers to learn complex patterns in data.
 
-Theory: Mathematical foundations of ML (e.g., linear algebra, probability).
-Practice: Hands-on projects and algorithm implementation.
-Terms That Weren’t Fully Explained
-Gradient Descent:
-Definition: An optimization algorithm used to minimize the error in a model.
-The algorithm iteratively adjusts the model’s parameters to reduce the difference between predicted and actual outputs.
 Training and Testing Data:
 Training Data: Used to train the model.
 Testing Data: Separate data used to evaluate the model’s performance.
@@ -84,4 +98,3 @@ Learning Rate:
 Definition: A parameter that controls how much the model’s weights are adjusted during training.
 A high learning rate may overshoot the optimal solution, while a low rate may slow down convergence.
 
-End
