@@ -15,23 +15,32 @@ How It Works:
 The model is trained on massive datasets using techniques like deep learning.
 During training, the model identifies the relationships between different elements of the data (e.g., words in a sentence or pixels in an image).
 After training, the model can generate new outputs that resemble the patterns it learned.
+
 Machine Learning (ML)
 Definition: A subset of AI where machines learn patterns from data and make decisions or predictions without explicit programming.
+Q:
+If the checkers program had been allowed to play only ten games (instead of tens of thousands) against itself, a much smaller number of games, how would this have affected its performance?
+-Would have made it better
+-Would have made it worse(true)
+The more learning algorithm you give, better it will perform
 Key Features:
 Focuses on data-driven decision-making.
 Relies on algorithms that improve performance as more data is provided.
 Core Branches:
 Supervised Learning:
-Definition: The model is trained on labeled data (data with known inputs and outputs).
-Algorithms:
-Regression: Predicts continuous outcomes (e.g., stock prices).
-Classification: Predicts discrete categories (e.g., email spam detection).
+Definition: The model is trained on labeled data (data with known inputs and outputs). It is the learning from the data labeled as right answers.
+Algorithms/Types of supervised learning:
+Regression: Predicts continuous outcomes (e.g., stock prices, house prices).It's a type of supervised learning to predict a number from infinitely many possible outcomes.
+Classification: Predicts discrete categories (e.g., email spam detection, breast cancer algorithm).
 
 Unsupervised Learning:
 Definition: The model learns patterns from unlabeled data (data without predefined outputs).
 Use Cases: Clustering (grouping similar data points) and anomaly detection.
 Dimensionality Reduction: Reduces the number of features while retaining important patterns. Example: PCA (Principal Component Analysis).
 K-mean Clustering: A popular clustering algorithm that partitions data into K clusters based on feature similarity.
+eg: Google news: Algorithm makes the clusters based on the releveant keywords and points so that the releveant inforomation is clustered
+Dna microarray: The groups are formed based on the relevant genes active in a particular group of people
+(Unsupervised Learning DNA microaaray)
 
 Reinforcement Learning:
 Definition: The model learns by interacting with its environment, receiving rewards or penalties for actions.

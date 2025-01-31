@@ -1,3 +1,8 @@
+Algorithms/Types of supervised learning:
+Regression: Predicts continuous outcomes (e.g., stock prices, house prices).It's a type of supervised learning to predict a number from infinitely many possible outcomes.
+Classification: Predicts discrete categories (e.g., email spam detection, breast cancer algorithm).
+In classification, the model predicts the catogories/classes that whether in a breast cancer algorithm,the cell is malignant or benign. There is a small number of possible outcomes
+
                                         input 
                                           |
 Training set -> Learning algorithm -> Hypothesis ->Output
@@ -6,3 +11,4 @@ h(x) = θ0 + θ1x1 + θ2x2 + ... + θnxn linear regression
 explain the equation:
 The equation represents a linear regression model, where h(x) is the predicted output, and x is the input feature. The θ values are the parameters of the model that are learned during the training process. The equation essentially represents a linear combination of the input features and the parameters, with the output being a continuous value.
 In the context of the diagram, the hypothesis represents the learned relationship between the input features and the output
+
