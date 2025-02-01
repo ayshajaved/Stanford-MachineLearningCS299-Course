@@ -34,8 +34,8 @@ Regression: Predicts continuous outcomes (e.g., stock prices, house prices).It's
 Classification: Predicts discrete categories (e.g., email spam detection, breast cancer algorithm).
 
 Unsupervised Learning:
-Definition: The model learns patterns from unlabeled data (data without predefined outputs).
-Use Cases: Clustering (grouping similar data points) and anomaly detection.
+Definition: The model learns patterns from unlabeled data (data without predefined outputs). The model has to find some pattern or structure
+Use Cases: Clustering (grouping similar data points) and anomaly detection(detecting some unusual event like in fraud detection; finding unusual data points)
 Dimensionality Reduction: Reduces the number of features while retaining important patterns. Example: PCA (Principal Component Analysis).
 K-mean Clustering: A popular clustering algorithm that partitions data into K clusters based on feature similarity.
 eg: Google news: Algorithm makes the clusters based on the releveant keywords and points so that the releveant inforomation is clustered
